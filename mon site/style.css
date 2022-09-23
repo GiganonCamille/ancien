@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif ;
+}
+
+
+/*
+selecteur {
+    propriété:valeur;
+
+}
+Il faut également excuter dans le même ordre que mon html */
+
+body{/*corps de page*/
+    background-color: white;
+    font-family: 'PT Serif', serif;
+}
+/*******Header***********/
+header{
+    background-color: white;
+    /*background-image:url(../img/fauxlogo.jpg); */
+}
+h2{
+    text-align: left;
+;
+}
+#titrewatch {
+    text-align: center;
+
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+#descriptionapplewatch {
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: x-large;
+}
+  
+/*body{
+    background: linear-gradient(rgb(255, 255, 255), 10%, rgb(165, 159, 159));
+  }*/
+
+#photo2 { 
+    width: 50%;
+  } 
+
+#texte2 {
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: space-between;
+}
+
+#paragraphe1 {
+    font-size: large;
+}
+
+#paragraphe2 {
+    font-size: large;
+}
+#paragraphe3 {
+    font-size: large;
+}
+
+#photo3 { 
+    width: 50%;
+  } 
+
+#texte3 {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+/* Responsive */
+
+@media all and (max-device-width:480px){
+    #texte2 {
+        display: flex;
+        flex-direction: column ;
+        justify-content: space-between;
+    }
+    #photo2 { 
+      width: 100%;
+      } 
+      #texte3 {
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+    }
+    #photo3 { 
+      width: 100%;
+      } 
+
+
+}
